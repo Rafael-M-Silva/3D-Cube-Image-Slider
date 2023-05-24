@@ -35,7 +35,8 @@ body {
   height: 300px;
   transform-style: preserve-3d;
   position: relative;
- /*  transform: rotateY(-50deg); */
+  /* transform: rotateY(50deg); */
+ transition: .3s;
 }
 
 .image-cube div {
@@ -67,3 +68,18 @@ img {
   transform-origin: 0 50%;
 }
 
+.btns {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns button {
+  color: #fff;
+  background-color: transparent;
+  border: 3px solid #fff;
+  padding: 8px 40px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
